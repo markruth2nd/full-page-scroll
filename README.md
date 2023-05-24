@@ -22,8 +22,9 @@ Fullpage JS
  - downloaded from https://alvarotrigo.com/fullPage/#page1. 
  - once downloaded and unzipped, I have added the fullpage.min.js fullpage.min.css files to my project
 
-GSAP
-
+GSAP script used for this project are:
+ - TimelineMax.min.js - allows me to use multiple animations
+ - TweenMax.min.js
 
 
  
