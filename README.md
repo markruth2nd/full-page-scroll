@@ -8,7 +8,7 @@ creating fluid transitions as you scroll down the page of a website
 
 
 # Depoloyed Link
-
+https://markruth2nd.github.io/full-page-scroll/
 
 ## Introduction & Features
 
