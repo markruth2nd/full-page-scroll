@@ -8,6 +8,46 @@
     height: 60%;
     position: absolute;
     top: 70%;
+    left: 70%;
+    transform: translate(-70%, -70%);
+}
+
+.s1{
+    background-image: url("/images/girl-reading-in-chair.jpg");
+    background-size: cover;
+}
+
+.section h1{
+    font-size: 64px;
+    position: absolute;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -20%);
+    /* The below is how I control the colour styling of the h1 tags, first I changel the colour or the background of the h1, then I clip the colour to the text instead of it being in the background and then I turn the text transparent so that the gradient colour only appears through the text */
+    background: linear-gradient(to left, #95dd87, #7cfaf3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s2{
+    background: linear-gradient(to left, #c1c1c1, #ffffff);
+}
+
+.s2 h1{
+    font-size: 50px;
+    background: linear-gradient(to left, #96abaa, #c3c1c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description{
+    margin: 20%;
+    width: 50%;
+    margin-left: 5%;
+    /* font-size: 20px; */
+
+}
+
+.description p{
+    margin: 50px 0;
 }
