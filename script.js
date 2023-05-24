@@ -18,8 +18,8 @@ new fullpage('#fullpage', {
                 .fromTo(description, 0.5, { y: '50', opacity: 0 }, { y: 0, opacity: 1 })
                 .fromTo(chairs[0], 1, { opacity: 1 }, { opacity: 0 })
                 .fromTo(chairs[1], 1, { opacity: 0 }, { opacity: 1 })
-                .fromTo(chairs[1], 0, { opacity: 1 }, { opacity: 0 }, '+=1')
-                .fromTo(chairs[2], 4, { opacity: 0 }, { opacity: 1 });
+                .fromTo(chairs[1], 0, { opacity: 1 }, { opacity: 0 })
+                .fromTo(chairs[2], 3, { opacity: 0 }, { opacity: 1 });
         }
     }
 })
